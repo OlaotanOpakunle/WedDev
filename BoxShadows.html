@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Box Shadows</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            div{
+                width: 300px;
+                height: 100px;
+                padding: 15px;
+                background-color: yellow;
+                box-shadow: 10px 10px;
+            }
+
+            div.grey{
+                width: 300px;
+                height: 100px;
+                padding: 15px;
+                background-color: yellow;
+                box-shadow: 10px 10px grey;
+            }
+
+            div.BlurGrey{
+                width: 300px;
+                height: 100px;
+                padding: 15px;
+                background-color: yellow;
+                box-shadow: 10px 10px 5px grey;
+            }
+
+            div.NumCard{
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6 20 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+            }
+
+            div.header{
+                background-color: #4caf50;
+                color: white;
+                padding: 10px;
+                font-size: 40px;
+            }
+
+            div.container{
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>The box-shadow property</h1>
+        <div>This is a div element with a box-shadow</div>
+        <br><br>
+        <div class="grey">div element in a yellow box with a grey shadow</div>
+        <br><br>
+        <div class="BlurGrey">div element with grey shadow and some blur effect</div>
+        <br><br>
+        
+    </body>
+</html>
